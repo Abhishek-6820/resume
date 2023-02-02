@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <form action="mailto:sriramojuakshay226@gmail.com" method="post" enctype="text/plain">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Ex:Abhi" required> <br>
+
+        <label for="lname">Last Name::</label>
+        <input type="text" name="lname" id="lname" placeholder="Ex:Sriram" required> <br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" required><br>
+
+        <label for="bday">Birth Date:</label>
+        <input type="date" name="bday" id="bday" required><br>
+
+        <label for="quan">Quantity:</label>
+        <input type="number" name="quan" id="quan" required><br>
+
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" required maxlength="5"> <br>
+
+        <p>Select Your Gender:</p>
+        <input type="radio" id="male" name="gender" value="MALE">
+        <label for="male">MALE</label>
+
+        <input type="radio" id="female" value="Female" name="gender"> 
+        <label for="female">FEMALE<br>
+
+        <label for="Intrest">Intrested in:</label>
+        <input type="checkbox" name="cricket" id="Intrest" >Cricket
+        <input type="checkbox" id="Intrest">Hockey 
+        <input type="checkbox" id="Intrest">Kabaddi <br>
+
+        <label for="photo">Upload Photo</label>
+        <input type="file" name="photo" id="photo" required> <br>
+
+        <label>Your Message</label>
+        <textarea name="Yourmessage" row="8" column="10"></textarea><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
